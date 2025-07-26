@@ -205,3 +205,33 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+.env
+
+# Static and media (generated)
+staticfiles/
+media/
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# IDEs and tools
+.vscode/
+.idea/
+*.swp
+
